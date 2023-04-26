@@ -792,22 +792,15 @@ body {
 
     .ul_for_development {
         font-size: 14px;
-        width: 270px;
-    }
-
-    .development-info {
-        flex-direction: column;
-        align-items: flex-start;
-        height: 750px;
-        justify-content: center;
+        width: 360px;
     }
 
     .development-type {
-        margin-left: 32px;
+        margin-left: 90px;
         padding-top: 44px;
     }
 
-    
+
     .footer {
         width: 750px;
     }
@@ -916,6 +909,27 @@ body {
         width: 155px;
         height: 40px;
         text-align: center;
+    }
+
+    .development-info {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 750px;
+        justify-content: center;
+    }
+
+    .development-cycle__header h1 {
+        font-size: 28px;
+    }
+
+    .ul_for_development {
+        font-size: 14px;
+        width: 270px;
+    }
+
+    .development-type {
+        margin-left: 32px;
+        padding-top: 44px;
     }
 
     .footer {
