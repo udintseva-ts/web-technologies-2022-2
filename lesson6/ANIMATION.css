@@ -1,0 +1,85 @@
+.animation_img {
+    display: flex;
+    position: absolute;
+    height: 1000px;
+    z-index: -1;
+    top: -20px;
+    left: 935px;
+    overflow: hidden;
+    transform: rotate(-15deg);
+}
+
+.animation_img div:nth-child(1) {
+    width: 330px;
+    height: 3960px;
+    background-size: 390px;
+    background-image: url("../svg/column-left.webp");
+    background-repeat: repeat-y;
+    position: relative;
+    animation: left 60s infinite;
+}
+
+.animation_img div:nth-child(2) {
+    height: 3960px;
+    width: 275px;
+    background-size: 235px;
+    background-image: url("../svg/column-right.webp");
+    background-repeat: repeat-y;
+    position: relative;
+    animation: right 60s infinite;
+}
+
+@keyframes left {
+     from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-1900px);
+    }
+}
+@keyframes right {
+    from {
+        transform: translateY(-1900px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .animation_img {
+        left: 505px;
+    }
+
+    .animation_img div:nth-child(1)
+    {
+        width: 230px;
+        background-size: 280px;
+    }
+
+    .animation_img div:nth-child(2)
+    {
+        background-size: 150px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .animation_img {
+        left: 45px;
+        height: 650px;
+        margin-top: 377px;
+    }
+
+    .animation_img div:nth-child(1)
+    {
+        width: 230px;
+        background-size: 280px;
+    }
+
+    .animation_img div:nth-child(2)
+    {
+        background-size: 150px;
+    }
+
+}
