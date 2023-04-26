@@ -1,0 +1,81 @@
+@import "./fonts.css";
+
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+.title-h1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+.title-h2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+
+}
+.title-h3 {
+    font-size: 36px;
+    text-align: center;
+
+}
+.title-h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+
+}
+.input-textarea {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+
+}
+.title-submit	{
+    background: linear-gradient(to right, #4076FF, #8D56C0);
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.5);
+    border-radius: 10px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+.title-body{
+    opacity: 0.7;
+    background-image:url(https://img.freepik.com/free-photo/neutral-abstract-background-with-gold-stars-glitter_53876-97489.jpg?w=900&t=st=1681750477~exp=1681751077~hmac=25d694d53effc6682e00e8b803e338d6ac17085677b32fa8b744e1f1f865ee55);
+}
+.title-header {
+    height: 72px;
+    background: linear-gradient(0deg, rgb(94 158 224) 0%, rgba(255,255,255,1) 100%);
+    line-height: 40px;
+}
+
+.title-a {
+    padding: 15px;
+    border-radius: 50px;
+    border-right: 3px solid white;
+    box-shadow: 10px 1px 8px -5px #0c3b56;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.list {
+    list-style-type: circle;
+
+}
+
+.ul {
+    display: inline;
+}
+
+.my-img
+{
+    width: 350px;
+}
