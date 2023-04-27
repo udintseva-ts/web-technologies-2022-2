@@ -1854,12 +1854,15 @@ body {
     .team__info p:first-of-type {
         margin-bottom: 20px;
     }
+
     .team__header {
         width: 96%;
     }
+
     .team__footer {
         width: 87%;
     }
+
     .team__marker label {
         font-weight: 700;
         font-size: 28px;
