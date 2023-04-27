@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+.idea
+/menu.html
+/telef.html
+/style.css
+/styless
+/src/components
