@@ -13,7 +13,7 @@
     width: 330px;
     height: 3960px;
     background-size: 390px;
-    background-image: url("../svg/column-left.webp");
+    background-image: url("../img/svg/column-left.webp");
     background-repeat: repeat-y;
     position: relative;
     animation: left 60s infinite;
@@ -23,7 +23,7 @@
     height: 3960px;
     width: 275px;
     background-size: 235px;
-    background-image: url("../svg/column-right.webp");
+    background-image: url("../img/svg/column-right.webp");
     background-repeat: repeat-y;
     position: relative;
     animation: right 60s infinite;
